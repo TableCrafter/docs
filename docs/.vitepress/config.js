@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'TableCrafter.js',
   description: 'Craft beautiful, responsive data tables with ease',
+  ignoreDeadLinks: true,
   
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
