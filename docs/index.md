@@ -5,9 +5,9 @@ hero:
   name: "TableCrafter.js"
   text: "Craft Beautiful Data Tables"
   tagline: "A lightweight, mobile-responsive JavaScript library with zero dependencies"
-  image:
-    src: /logo-large.svg
-    alt: TableCrafter
+  # image:
+    # src: /logo-large.svg
+    # alt: TableCrafter
   actions:
     - theme: brand
       text: Get Started

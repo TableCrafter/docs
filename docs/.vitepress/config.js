@@ -3,10 +3,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'TableCrafter.js',
   description: 'Craft beautiful, responsive data tables with ease',
+  base: '/docs/',
   ignoreDeadLinks: true,
   
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/docs/favicon.svg', type: 'image/svg+xml' }],
     ['meta', { name: 'theme-color', content: '#3c82f6' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'en' }],
@@ -17,7 +18,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: '/logo.svg',
+    // logo: '/logo.svg',  // Commented out until we add the logo file
     
     nav: [
       { text: 'Guide', link: '/guide/getting-started', activeMatch: '/guide/' },
