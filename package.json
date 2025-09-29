@@ -1,0 +1,30 @@
+{
+  "name": "@tablecrafter/docs",
+  "version": "1.0.0",
+  "description": "TableCrafter.js documentation website",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "deploy": "npm run docs:build && gh-pages -d docs/.vitepress/dist"
+  },
+  "keywords": [
+    "tablecrafter",
+    "javascript",
+    "table",
+    "data-table",
+    "documentation"
+  ],
+  "author": "TableCrafter Team",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0",
+    "gh-pages": "^6.0.0"
+  },
+  "homepage": "https://tablecrafter.github.io/docs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TableCrafter/docs.git"
+  }
+}
